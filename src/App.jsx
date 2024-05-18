@@ -4,7 +4,7 @@ import Brand from "./components/brand/Brand";
 import WhatGPT3 from "./containers/whatgpt3/Whatgpt3";
 import Features from "./containers/features/Features";
 import Possibility from "./containers/possibility/Possibility";
-import CTA from "./components/cta/Cta";
+import Cta from "./components/cta/Cta";
 import Blog from "./containers/blog/Blog";
 import Footer from "./containers/footer/Footer";
 import "./App.css";
@@ -20,7 +20,7 @@ const App = () => {
       <WhatGPT3 />
       <Features />
       <Possibility />
-      <CTA />
+      <Cta />
       <Blog />
       <Footer />
     </div>
